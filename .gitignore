@@ -1,10 +1,15 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
+*.pyc
+*.pyo
+*.pyd
+.Python
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
+.eggs/
 *.egg
 
 # Virtual environments
@@ -12,14 +17,8 @@ wheels/
 venv/
 env/
 ENV/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-
-# IPython
-profile_default/
-ipython_config.py
+env.bak/
+venv.bak/
 
 # Environment variables
 .env
@@ -28,7 +27,7 @@ ipython_config.py
 .env.test.local
 .env.production.local
 
-# IDE and Editor files
+# IDE and editor files
 .vscode/
 .idea/
 *.swp
@@ -44,39 +43,39 @@ ipython_config.py
 ehthumbs.db
 Thumbs.db
 
-# Streamlit
+# Streamlit specific
 .streamlit/
 
-# Data and model files (common in RAG projects)
-data/
-models/
-*.pkl
-*.pickle
-*.h5
-*.hdf5
-*.model
-*.bin
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# Vector stores and embeddings
-*.faiss
-*.index
-chroma_db/
-vectorstore/
-embeddings/
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# UV
+uv.lock
 
 # Logs
 *.log
 logs/
 
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
 # Cache directories
 .cache/
 .pytest_cache/
-
-# Coverage reports
-htmlcov/
+.mypy_cache/
 .coverage
-.coverage.*
-coverage.xml
+htmlcov/
 
 # Temporary files
 *.tmp
@@ -84,5 +83,14 @@ coverage.xml
 temp/
 tmp/
 
-# UV specific
-.uv/
+# Project specific
+transcript.txt
+*.transcript
+vector_store/
+*.faiss
+*.pkl
+*.pickle
+
+# API keys and secrets
+secrets.toml
+.secrets/
