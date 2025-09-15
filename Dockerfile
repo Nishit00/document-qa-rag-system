@@ -2,20 +2,18 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-# Install UV
-RUN pip install uv
-
 RUN apt-get update && apt-get install -y \
+    build-essential \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy dependency files first (better caching)
-COPY pyproject.toml uv.lock ./
+COPY requirements.txt ./
 
-RUN uv sync 
+RUN pip install --no-cache-dir -r requirements.txt 
 
 # Copy only necessary application files
 COPY app.py ./
 
 EXPOSE 8501
 
-RUN ["uv","run","streamlit","run","app.py"]
+CMD ["streamlit", "run", "app.py", "--server.address", "0.0.0.0", "--server.port", "8501"]
