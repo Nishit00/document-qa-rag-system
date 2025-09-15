@@ -8,9 +8,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 [![Issues](https://img.shields.io/github/issues/ZohaibCodez/document-qa-rag-system.svg)](https://github.com/ZohaibCodez/document-qa-rag-system/issues)
 ![Last Commit](https://img.shields.io/github/last-commit/ZohaibCodez/document-qa-rag-system)
-[![Stars](https://img.shields.io/github/stars/ZohaibCodez/document-qa-rag-system?style=social)](https://github.com/ZohaibCodez/document-qa-rag-system/stargazers)
-[![Forks](https://img.shields.io/github/forks/ZohaibCodez/document-qa-rag-system?style=social)](https://github.com/ZohaibCodez/document-qa-rag-system/network/members)
-[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://document-rag.streamlit.app)
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://document-rag-system.streamlit.app)
 
 ## 🎯 Overview
 
@@ -18,7 +16,7 @@ Document RAG Assistant is a Streamlit web application that enables you to have i
 
 ## 🌐 Live Demo
 
-Try it out here: [Document RAG Assistant Live Demo](https://document-rag.streamlit.app)
+Try it out here: [Document RAG Assistant Live Demo](https://document-rag-system.streamlit.app)
 
 ## ✨ Features
 
